@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-03T18:34:01 IST" name="Suite" finished-at="2022-09-03T18:34:02 IST" duration-ms="44">
+    <groups>
+    </groups>
+    <test started-at="2022-09-03T18:34:01 IST" name="Test" finished-at="2022-09-03T18:34:02 IST" duration-ms="44">
+      <class name="Practice2.xyz">
+        <test-method signature="sam()[pri:0, instance:Practice2.xyz@1e6454ec]" started-at="2022-09-03T18:34:02 IST" name="sam" finished-at="2022-09-03T18:34:02 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sam -->
+      </class> <!-- Practice2.xyz -->
+      <class name="Practice2.Sample4">
+        <test-method signature="ok1()[pri:0, instance:Practice2.Sample4@932bc4a]" started-at="2022-09-03T18:34:02 IST" name="ok1" finished-at="2022-09-03T18:34:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ok1 -->
+      </class> <!-- Practice2.Sample4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
