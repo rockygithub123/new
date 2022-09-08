@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-03T18:34:01 IST" name="Suite" finished-at="2022-09-03T18:34:02 IST" duration-ms="44">
+  <suite started-at="2022-09-06T12:34:48 IST" name="Default suite" finished-at="2022-09-06T12:34:48 IST" duration-ms="37">
     <groups>
     </groups>
-    <test started-at="2022-09-03T18:34:01 IST" name="Test" finished-at="2022-09-03T18:34:02 IST" duration-ms="44">
-      <class name="Practice2.xyz">
-        <test-method signature="sam()[pri:0, instance:Practice2.xyz@1e6454ec]" started-at="2022-09-03T18:34:02 IST" name="sam" finished-at="2022-09-03T18:34:02 IST" duration-ms="6" status="PASS">
+    <test started-at="2022-09-06T12:34:48 IST" name="Default test" finished-at="2022-09-06T12:34:48 IST" duration-ms="37">
+      <class name="Practice2.AssendingOrder">
+        <test-method signature="sample()[pri:0, instance:Practice2.AssendingOrder@b62d79]" started-at="2022-09-06T12:34:48 IST" name="sample" finished-at="2022-09-06T12:34:48 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sam -->
-      </class> <!-- Practice2.xyz -->
-      <class name="Practice2.Sample4">
-        <test-method signature="ok1()[pri:0, instance:Practice2.Sample4@932bc4a]" started-at="2022-09-03T18:34:02 IST" name="ok1" finished-at="2022-09-03T18:34:02 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ok1 -->
-      </class> <!-- Practice2.Sample4 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- sample -->
+      </class> <!-- Practice2.AssendingOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
