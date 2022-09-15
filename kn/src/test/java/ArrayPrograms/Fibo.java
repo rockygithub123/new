@@ -13,7 +13,7 @@ public class Fibo {
 			a=b;
 			b=c;
 			if(c<10) {
-			System.out.println(c);
+			System.out.print(c+" ");
 			}
 		}
 			

@@ -11,6 +11,7 @@ public class ToSeperateAlphaSPecial {
 		String spe="";
 		for (int i = 0; i < s.length(); i++) {
 			char ch = s.charAt(i);
+			
 			if(ch>64&&ch<91)
 			{
 				
@@ -35,7 +36,45 @@ public class ToSeperateAlphaSPecial {
 		System.out.println("Total uppercase is is           >>> "+lowercase);
 		System.out.println("Total number is                 >>> "+num);
 		System.out.println("Total special charactyer  is    >>> "+spe);
+		method();
+		
 
+	}
+	public static void method()
+	{
+		String s="Arak#$$2351";
+		String uppercase="";
+		String lowercase="";
+		String num="";
+		String spe="";
+		for (int i = 0; i < s.length(); i++) {
+			char ch = s.charAt(i);
+			
+			if(ch>='A'&&ch<='Z')
+			{
+				
+				uppercase=uppercase+ch;
+			}
+			else if(ch>='a'&&ch<='z')
+			{
+				lowercase=lowercase+ch;
+			}
+			else if(ch>='0'&&ch<='9')
+				
+			{
+				num=num+ch;
+			}
+			else
+			{
+				spe=spe+ch;
+			}
+			
+			
+		}
+		System.out.println("Total uppercase is is           >>> "+uppercase);
+		System.out.println("Total uppercase is is           >>> "+lowercase);
+		System.out.println("Total number is                 >>> "+num);
+		System.out.println("Total special charactyer  is    >>> "+spe);
 	}
 
 }

@@ -4,7 +4,11 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Practice2.xyz"/>
-      <class name="Practice2.sammple"/>
+      <class name="Practice2.sammple">
+      <methods>
+      <include name=""></include>
+      </methods>
+      />
       <class name="Practice2.Sample4"/>
     </classes>
   </test> <!-- Test -->

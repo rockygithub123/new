@@ -12,6 +12,7 @@ public class AddFirstThreeMax {
 					int temp=a[i];
 					a[i]=a[j];
 					a[j]=temp;
+					
 				}
 
 			}
