@@ -1,28 +1,28 @@
 package com.Practice;
 
-import org.testng.internal.BaseClassFinder;
+import java.util.Scanner;
 
-public class Sample2 extends  {
+public class Sample2   {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int no=5;
-		
-		for (int i = 2; i < 5; i++) {
-			if(no%i==0)
-			{
-				System.out.println("not a prime");
-				break;
+	public static void main(String[] args)  {
+		String num="";
+		System.out.println("enter your num");
+		for (int i = 0; i < 10; i++) {
+			Scanner sc=new Scanner(System.in);
+			try {
 				
-			}
-			else
-			{
-				System.out.println("yes prime");
-				break;
+				int no = sc.nextInt();
+				if(no==0&&no==9) {
+					
+				}
+				num=num+no;
+				
+			} catch (Exception e) {
+				// TODO: handle exception
+				System.err.println("Enter valid number");
+				i--;
 			}
 			
 		}
-
-	}
-
-}
+		System.out.println(num);
+	}}
