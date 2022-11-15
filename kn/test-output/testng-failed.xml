@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practi.Sample">
+      <class name="com.Practice.PrimeNumberEqual">
         <methods>
-          <include name="sam"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Practi.Sample -->
+      </class> <!-- com.Practice.PrimeNumberEqual -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
